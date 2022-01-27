@@ -59,6 +59,7 @@ body {
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-contacts .contacts:hover,
 .nav-contacts .contacts:focus {
@@ -123,6 +124,7 @@ body {
 
 .footer-contacts {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 /* buttons */
