@@ -28,6 +28,8 @@ body {
 }
 
 /* header */
+
+/* логотип */
 .logo {
   color: var(--primary-black-color);
   font-family: Raleway, sans-serif;
@@ -40,6 +42,7 @@ body {
   color: var(--accent-color);
 }
 
+/* ссылки навигации */
 .nav-list .link {
   color: var(--secondary-title-color);
   font-weight: 500;
@@ -58,6 +61,7 @@ body {
   color: var(--accent-color);
 }
 
+/* Контакты в шапке */
 .nav-contacts .contacts {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -72,6 +76,11 @@ body {
 
 /* main */
 
+/* убирает точки в списках */
+.list {
+  list-style: none;
+}
+
 /* hero */
 .hero-title {
   color: var(--primary-white-color);
@@ -84,9 +93,6 @@ body {
 }
 
 /* other sections styles */
-.list {
-  list-style: none;
-}
 .section-title {
   color: var(--secondary-title-color);
   font-weight: 700;
@@ -95,9 +101,9 @@ body {
   text-align: center;
 }
 
+/* секция Наши проекты в портфолио */
 .projects-section-title .section-title {
   color: var(--secondary-title-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   text-align: left;
@@ -108,20 +114,26 @@ body {
   line-height: 1.87;
 }
 
-.features-list .title,
-.team-list .title {
+/* секция our features в индекс */
+.features-list .title {
   color: var(--secondary-title-color);
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
+/* секция наша команда в индекс */
 .team-list .title {
+  color: var(--secondary-title-color);
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .team-list p {
   line-height: 1.19;
+  text-align: center;
 }
 
 /* footer */
@@ -135,6 +147,8 @@ body {
 }
 
 /* buttons */
+
+/* кнопка в индекс */
 .hero-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -144,6 +158,7 @@ body {
   text-align: center;
 }
 
+/* кнопки в портфолио */
 .button {
   background-color: var(--bcg-button-color);
   color: var(--secondary-title-color);
