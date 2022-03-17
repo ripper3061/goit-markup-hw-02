@@ -137,13 +137,16 @@ body {
 }
 
 /* footer */
+
 .footer-address {
   color: var(--primary-white-color);
+  font-style: normal;
 }
 
 .footer-contacts {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 /* buttons */
