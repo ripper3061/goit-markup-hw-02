@@ -117,6 +117,7 @@ body {
 /* секция our features в индекс */
 .features-list .title {
   color: var(--secondary-title-color);
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
